@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bacterial Meningitis Bioinformatics Project</title>
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+background:#f4f6f9;
+margin:0;
+line-height:1.8;
+}
+
+header{
+background:#0a2f6b;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+nav{
+background:#06214d;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+section{
+background:white;
+margin:20px;
+padding:25px;
+border-radius:10px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+color:#0a2f6b;
+}
+
+img{
+display:block;
+margin:auto;
+width:65%;
+max-width:650px;
+border-radius:10px;
+border:2px solid #0a2f6b;
+margin-top:15px;
+margin-bottom:15px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+table,th,td{
+border:1px solid black;
+}
+
+th{
+background:#0a2f6b;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+text-align:center;
+}
+
+footer{
+background:#0a2f6b;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Bacterial Meningitis Bioinformatics Project</h1>
+
+<p>Network Pharmacology and Molecular Docking Analysis</p>
+
+</header>
+
+<nav>
+
+<a href="#intro">Introduction</a>
+<a href="#literature">Literature Review</a>
+<a href="#methodology">Methodology</a>
+<a href="#molinspiration">Molinspiration</a>
+<a href="#network">Network</a>
+<a href="#kegg">KEGG</a>
+<a href="#docking">Docking</a>
+<a href="#conclusion">Conclusion</a>
+
+</nav>
+
+<section id="intro">
+
+<h2>Introduction</h2>
+
+<img src="images/Bactrial Meningitis Image.png">
+
+<p>
+Bacterial meningitis is a severe infection that causes inflammation of the meninges surrounding the brain and spinal cord. Major causative organisms include Neisseria meningitidis, Streptococcus pneumoniae and Haemophilus influenzae. The disease may result in neurological complications, hearing loss, seizures and death if not treated promptly.
+</p>
+
+<h3>Signs and Symptoms</h3>
+
+<ul>
+<li>Fever</li>
+<li>Headache</li>
+<li>Neck stiffness</li>
+<li>Nausea and vomiting</li>
+<li>Photophobia</li>
+<li>Confusion</li>
+<li>Seizures</li>
+</ul>
+
+<h3>Risk Factors</h3>
+
+<ul>
+<li>Weak immune system</li>
+<li>Crowded living conditions</li>
+<li>Lack of vaccination</li>
+<li>Respiratory infections</li>
+<li>Young age and old age</li>
+</ul>
+<section>
+
+<h2>History of Bacterial Meningitis</h2>
+
+<p>
+Bacterial meningitis has been recognized as a serious neurological disease since the early nineteenth century. The first major epidemics were reported in Europe and North America, where the disease caused significant mortality. Advances in microbiology during the late nineteenth century enabled scientists to identify bacterial pathogens responsible for meningitis.
+</p>
+
+<p>
+The development of antibiotics and vaccination programs dramatically reduced disease incidence and mortality. However, bacterial meningitis remains a major public health challenge in developing countries and continues to cause severe neurological complications worldwide.
+</p>
+
+</section>
+
+<section>
+
+<h2>Pathophysiology of Bacterial Meningitis</h2>
+
+<p>
+The disease begins when pathogenic bacteria enter the bloodstream and cross the blood-brain barrier. Once inside the cerebrospinal fluid, bacteria rapidly multiply and trigger a strong inflammatory response.
+</p>
+
+<p>
+Inflammatory mediators increase vascular permeability, resulting in cerebral edema, neuronal injury, and increased intracranial pressure. These pathological changes contribute to neurological complications such as hearing loss, cognitive impairment, seizures, and death.
+</p>
+
+</section>
+
+<section>
+
+<h2>Genes Associated with Bacterial Meningitis</h2>
+
+<ul>
+<li>JAK1</li>
+<li>STAT3</li>
+<li>AKT1</li>
+<li>MAPK1</li>
+<li>GSK3B</li>
+<li>ACE</li>
+<li>ROCK2</li>
+<li>ITGB3</li>
+</ul>
+
+<p>
+These genes play important roles in inflammatory signaling, immune regulation, cellular communication, and host defense mechanisms.
+</p>
+
+</section>
+</section>
+
+<section id="literature">
+
+<h2>Literature Review</h2>
+
+<p>
+Thigpen et al. (2011) reported a significant reduction in bacterial meningitis incidence following vaccination programs and highlighted changes in disease epidemiology in the United States.
+</p>
+
+<p>
+van de Beek et al. (2004) identified important clinical factors associated with mortality and neurological complications in bacterial meningitis patients.
+</p>
+
+<p>
+Brouwer et al. (2012) reviewed the epidemiology, diagnosis and treatment strategies of acute bacterial meningitis and emphasized the importance of early intervention.
+</p>
+
+<p>
+Koedel et al. (2010) described the molecular mechanisms responsible for inflammation and neuronal damage during bacterial meningitis.
+</p>
+
+<p>
+McGill et al. (2016) provided updated recommendations for the diagnosis and management of bacterial meningitis in adults.
+</p>
+
+</section>
+
+<section id="methodology">
+
+<h2>Methodology Workflow</h2>
+
+<img src="images/Methodology workflow.png">
+
+<ol>
+
+<li>Disease Gene Collection</li>
+<li>SwissTargetPrediction Analysis</li>
+<li>UniProt Annotation</li>
+<li>KEGG Pathway Analysis</li>
+<li>Network Construction</li>
+<li>Molecular Docking using PyRx</li>
+<li>Interaction Analysis using Discovery Studio</li>
+
+</ol>
+
+</section>
+
+<section id="molinspiration">
+
+<h2>Molinspiration Analysis</h2>
+
+<img src="images/Molinspiration Result.png">
+
+<p>
+Molinspiration was used to evaluate drug-likeness properties, molecular weight, hydrogen bond donors, hydrogen bond acceptors, TPSA and Lipinski rule parameters.
+</p>
+
+</section>
+
+<section id="network">
+
+<h2>Network Pharmacology Analysis</h2>
+
+<p>
+Network pharmacology analysis was performed to investigate the interactions between disease-associated genes and therapeutic compounds. The analysis helps identify hub genes that play important roles in disease progression and drug response.
+</p>
+
+<p>
+Important genes identified in the network included JAK1, STAT3, AKT1, MAPK1, GSK3B, ACE, ROCK2, and ITGB3. These genes participate in immune regulation, inflammatory responses, and signaling pathways associated with bacterial meningitis.
+</p>
+
+<p>
+Cytoscape Network Image will be added later.
+</p>
+
+</section>
+
+<section id="kegg">
+
+<h2>KEGG Pathway Analysis</h2>
+
+<img src="images/Kegg pathway analysis.png">
+
+<p>
+KEGG pathway enrichment analysis identified important biological pathways associated with bacterial meningitis target genes and signaling mechanisms.
+</p>
+<p>
+KEGG pathway enrichment analysis identified several significant pathways involved in bacterial meningitis pathogenesis. Major pathways included PI3K-Akt signaling, JAK-STAT signaling, MAPK signaling, Neuroactive ligand-receptor interaction, and cAMP signaling pathways.
+</p>
+
+<p>
+These pathways regulate immune responses, inflammatory processes, cellular survival, and communication mechanisms. Understanding these pathways provides insight into disease progression and potential therapeutic targets.
+</p>
+</section>
+
+<section id="docking">
+
+<h2>PyRx Docking Results</h2>
+
+<img src="images/Pyrx Results.png">
+
+<table>
+
+<tr>
+<th>PDB ID</th>
+<th>Ligand</th>
+<th>Binding Affinity</th>
+</tr>
+
+<tr>
+<td>8FF8</td>
+<td>CID104838</td>
+<td>-5.9 kcal/mol</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>3D Protein-Ligand Interaction</h2>
+
+<img src="images/3D Docking Image.png">
+
+<p>
+The 3D interaction image shows the orientation of the ligand inside the active site of the target protein.
+</p>
+
+</section>
+
+<section>
+
+<h2>2D Protein-Ligand Interaction</h2>
+
+<img src="images/2D Docking Image.png">
+
+<p>
+The 2D interaction diagram highlights hydrogen bonds, hydrophobic contacts and amino acid residues involved in ligand binding.
+</p>
+
+</section>
+<p>
+Molecular docking studies were performed using AutoDock Vina integrated within the PyRx virtual screening platform. Docking analysis evaluated the binding affinity between selected compounds and target proteins associated with bacterial meningitis.
+</p>
+
+<p>
+The best docking pose demonstrated a binding affinity of -5.9 kcal/mol against target protein 8FF8. Lower binding energies indicate stronger ligand-protein interactions and improved complex stability.
+</p>
+
+<p>
+Discovery Studio Visualizer was used to investigate hydrogen bonds, hydrophobic interactions, and amino acid residues involved in ligand binding.
+</p>
+<section id="conclusion">
+
+<h2>Conclusion</h2>
+
+<p>
+The present study integrated network pharmacology, pathway enrichment and molecular docking approaches to identify potential therapeutic targets associated with bacterial meningitis. The docking results demonstrated favorable ligand-target interactions, suggesting the potential of selected compounds for further experimental validation.
+</p>
+<p>
+This study successfully integrated bioinformatics, network pharmacology, pathway enrichment analysis, and molecular docking approaches to investigate bacterial meningitis. Disease-associated genes and important signaling pathways were identified using computational methods.
+</p>
+
+<p>
+Molecular docking analysis demonstrated favorable interactions between selected compounds and target proteins. These findings provide valuable insights into bacterial meningitis pathogenesis and may contribute to future drug discovery and therapeutic development.
+</p>
+</section>
+<footer>
+
+<p>
+Bacterial Meningitis Bioinformatics Project
+</p>
+
+<p>
+Prepared By:
+Sai Venkat | Mahesh Babu | Kalyan M
+</p>
+
+</footer>
+
+</body>
+</html>
